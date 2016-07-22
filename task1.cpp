@@ -137,8 +137,6 @@ int main(int argc, char* argv[]){
 	while(f1 >> word){		
 		string n1 = word;
 		f1 >> word;
-		f1 >> word;
-		f1 >> word;
 		string id1 = word;	
 		insert(n1, id1, T);
 	}
@@ -147,12 +145,8 @@ int main(int argc, char* argv[]){
 		if( (find_id(n2, T)) == true){
 			f3 << word2 << " ";
 			f2 >> word2;
-			f3 << word2 << " ";
-			f2 >> word2;
  			f3 << word2 << endl;
 		}else{
-			no << word2 << " ";
-			f2 >> word2;
 			no << word2 << " ";
 			f2 >> word2;
  			no << word2 << endl;	
